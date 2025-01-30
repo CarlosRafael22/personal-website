@@ -1,4 +1,5 @@
 import withBundleAnalyzer from '@next/bundle-analyzer';
+import createMDX from '@next/mdx';
 import { withSentryConfig } from '@sentry/nextjs';
 import createNextIntlPlugin from 'next-intl/plugin';
 import './src/libs/Env';
@@ -9,17 +10,25 @@ const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
 
+const withMDX = createMDX({
+  // Add markdown plugins here, as desired
+});
+
+const nextConfig = {
+  eslint: {
+    dirs: ['.'],
+  },
+  poweredByHeader: false,
+  reactStrictMode: true,
+  serverExternalPackages: ['@electric-sql/pglite'],
+  // Configure `pageExtensions` to include markdown and MDX files
+  pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
+};
+
 /** @type {import('next').NextConfig} */
 export default withSentryConfig(
   bundleAnalyzer(
-    withNextIntl({
-      eslint: {
-        dirs: ['.'],
-      },
-      poweredByHeader: false,
-      reactStrictMode: true,
-      serverExternalPackages: ['@electric-sql/pglite'],
-    }),
+    withMDX(withNextIntl(nextConfig)),
   ),
   {
     // For all available options, see:
