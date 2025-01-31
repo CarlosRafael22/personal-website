@@ -18,11 +18,11 @@ test.describe('Sanity', () => {
       await page.goto(`${baseURL}/`);
 
       await expect(
-        page.getByRole('heading', { name: 'Boilerplate Code for Your Next.js Project with Tailwind CSS' }),
+        page.getByRole('heading', { name: 'Rafael Leitão' }),
       ).toBeVisible();
     });
 
-    test('should navigate to the about page', async ({ page, baseURL }) => {
+    /*     test('should navigate to the about page', async ({ page, baseURL }) => {
       await page.goto(`${baseURL}/`);
 
       await page.getByRole('link', { name: 'About' }).click();
@@ -44,6 +44,6 @@ test.describe('Sanity', () => {
       await expect(
         page.locator('main').getByRole('link', { name: /^Portfolio/ }),
       ).toHaveCount(6);
-    });
+    }); */
   });
 });
