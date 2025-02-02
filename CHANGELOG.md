@@ -1,3 +1,37 @@
+# 1.0.0 (2025-02-02)
+
+
+### Bug Fixes
+
+* **post.test:** use correct file name ([efdf1da](https://github.com/CarlosRafael22/personal-website/commit/efdf1da6b008673cae56f61d9a618d51a0751764))
+
+
+### Features
+
+* **blog:** create blog slug page ([b770c24](https://github.com/CarlosRafael22/personal-website/commit/b770c24a8b3c54c82ef42cf0e53586463468f5f0))
+* **components.json:** initial configuration ([c07012e](https://github.com/CarlosRafael22/personal-website/commit/c07012ecf362a130a7b42e0c75075f21b9b1d298))
+* **components/blog:** create BlogPostHeader ([7c96d40](https://github.com/CarlosRafael22/personal-website/commit/7c96d4044630ef09d4251bffb5cd3205185e608f))
+* **components/helpers:** create blog file with getPostData ([bb26410](https://github.com/CarlosRafael22/personal-website/commit/bb26410e1afbee87181ae3bfd831dcea6096adc3))
+* **components/templates:** create BlogPageTemplate ([ee0eac2](https://github.com/CarlosRafael22/personal-website/commit/ee0eac22b20af73d89e407f933a3e5880f7d8308))
+* **components/ui:** create folder and add shadcn components ([9358f71](https://github.com/CarlosRafael22/personal-website/commit/9358f71adfa6180df5adf264230bde14f128d003))
+* **components:** create ArticleCard ([54d49dd](https://github.com/CarlosRafael22/personal-website/commit/54d49dd50e99052bc14b6c6636f01096eb60e839))
+* **components:** create Header ([c557402](https://github.com/CarlosRafael22/personal-website/commit/c557402fe240fdba47d9fc709a24e7f804cdd1fd))
+* **components:** create SocialLinks ([88531d6](https://github.com/CarlosRafael22/personal-website/commit/88531d6d8ef0144953320eacac8da29f3d11fc34))
+* **components:** create TagsList ([0ba2880](https://github.com/CarlosRafael22/personal-website/commit/0ba288096d12b5c067e306f468c0dd69a0faa879))
+* **e2e:** comment out tests to not fail ([501c451](https://github.com/CarlosRafael22/personal-website/commit/501c4516664386b6016a4e1b7058f61bb687fb16))
+* **images:** add images for first post ([b6287e0](https://github.com/CarlosRafael22/personal-website/commit/b6287e04e218a6136f9b08ca94d3ea779c7a85ce))
+* **lib:** create posts file with related funcs ([3884cd1](https://github.com/CarlosRafael22/personal-website/commit/3884cd1873470dedbbd2a3214074a11df703111a))
+* **lib:** create utils file with tailwind func ([99d9c83](https://github.com/CarlosRafael22/personal-website/commit/99d9c8384571390081be134786611e8110107342))
+* **marketing:** add home page ([bbc5936](https://github.com/CarlosRafael22/personal-website/commit/bbc593693adc2be4646a5cffa6f67f1f9474f2c9))
+* **marketing:** add simple layout files ([bb1d0c7](https://github.com/CarlosRafael22/personal-website/commit/bb1d0c71b6eee3e96598d0fa0baf663de34cdb5b))
+* **marketing:** move boilerplate code ([dd779a3](https://github.com/CarlosRafael22/personal-website/commit/dd779a300df0f75965864b7f0d445d2da90b2ba1))
+* **models:** create blog file with post types ([512d6c9](https://github.com/CarlosRafael22/personal-website/commit/512d6c9b1ea1c2e2947fe973ffc4e85fbf633df4))
+* **next.config.ts:** configure for createMDX ([35cbe88](https://github.com/CarlosRafael22/personal-website/commit/35cbe884f0a09d93641598cb0483990a4068ee1f))
+* **package.json:** add mdx related libs ([8a168a3](https://github.com/CarlosRafael22/personal-website/commit/8a168a31661fd46a10e95d9c6c5504e7359f4c00))
+* **posts:** add first-post ([c4987d5](https://github.com/CarlosRafael22/personal-website/commit/c4987d58657b131a196e255cc9428b92589e50e6))
+* **src:** add mdx-components ([86e1ee1](https://github.com/CarlosRafael22/personal-website/commit/86e1ee1dc6f768c96595b162413ec8f02224fc5e))
+* **workflows:** comment crowdin step ([62a11ef](https://github.com/CarlosRafael22/personal-website/commit/62a11ef9baebcb9db7af85ef56ac864d09bfc0e9))
+
 ## [3.60.5](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.4...v3.60.5) (2024-12-20)
 
 
