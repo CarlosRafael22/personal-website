@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CarlosRafael22/personal-website/compare/v1.0.0...v1.1.0) (2025-02-02)
+
+
+### Features
+
+* **layout:** remove DemoBadge ([b40423e](https://github.com/CarlosRafael22/personal-website/commit/b40423eb4084c26612595e5bd98a16d41e88d5d2))
+
 # 1.0.0 (2025-02-02)
 
 
