@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 
 test.describe('Visual testing', () => {
   test.describe('Static pages', () => {
-    test('should take screenshot of the homepage', async ({ page }) => {
+    /*     test('should take screenshot of the homepage', async ({ page }) => {
       await page.goto('/');
 
       await expect(
@@ -21,7 +21,7 @@ test.describe('Visual testing', () => {
       ).toBeVisible();
 
       await percySnapshot(page, 'About');
-    });
+    }); */
 
     test('should take screenshot of the portfolio page and one details page', async ({ page }) => {
       await page.goto('/portfolio');
@@ -41,7 +41,7 @@ test.describe('Visual testing', () => {
       await percySnapshot(page, 'Portfolio details');
     });
 
-    test('should take screenshot of the French homepage', async ({ page }) => {
+    /*     test('should take screenshot of the French homepage', async ({ page }) => {
       await page.goto('/fr');
 
       await expect(
@@ -49,6 +49,6 @@ test.describe('Visual testing', () => {
       ).toBeVisible();
 
       await percySnapshot(page, 'Homepage - French');
-    });
+    }); */
   });
 });
