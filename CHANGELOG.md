@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/CarlosRafael22/personal-website/compare/v1.1.0...v1.2.0) (2025-02-03)
+
+
+### Bug Fixes
+
+* **posts.test:** use correct post path ([760043a](https://github.com/CarlosRafael22/personal-website/commit/760043a638521806ab29d86c8d82e8a2c04c1e18))
+
+
+### Features
+
+* **page:** update header description ([9f4a8b5](https://github.com/CarlosRafael22/personal-website/commit/9f4a8b591ac7714a82bca3f21bcab69acca32417))
+* **posts:** change title and file name ([c559bbe](https://github.com/CarlosRafael22/personal-website/commit/c559bbeaba13edec76d68cf0e0894f86f5fd570e))
+* **posts:** correct typo ([a750e0d](https://github.com/CarlosRafael22/personal-website/commit/a750e0d9680c49722f993851b71a9c585642dfb0))
+* **posts:** create first post ([588a1d3](https://github.com/CarlosRafael22/personal-website/commit/588a1d3283fd3f549c9f1da5dd78d6e12580d48c))
+
 # [1.1.0](https://github.com/CarlosRafael22/personal-website/compare/v1.0.0...v1.1.0) (2025-02-02)
 
 
