@@ -26,15 +26,16 @@ const Page = async () => {
         <SocialLinks />
 
         <p className="mt-6 text-gray-600">
-          Hey there! Great that you're visiting my place in the internet!
+          Hey there! Great that you're visiting my corner on the internet!
           {' '}
           <br />
-          I've always found it nice that people could share a bit of themselves
-          on their own personal websites. This is my attempting of doing the same.
+          I've always found it nice that people share a bit of themselves on their own personal websites.
+          That's why I decided to start doing the same this year.
           {' '}
           <br />
-          Here I plan to share topics I'm studying, things I've learned or projects I'm working on.
-          Right now, as "v0" stage, there's not much happening but soon I will start sharing my journey.
+          Here I plan to share topics I'm studying, things I've learned, or projects I'm working on.
+          Right now, in the "v0" stage, there's not much going on here. Soon I will start sharing my journey.
+          Feel free to get in touch ;)
         </p>
       </div>
 
