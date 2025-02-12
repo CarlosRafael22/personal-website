@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CarlosRafael22/personal-website/compare/v1.2.0...v1.3.0) (2025-02-12)
+
+
+### Features
+
+* **posts:** add series-architect-1 ([da1e361](https://github.com/CarlosRafael22/personal-website/commit/da1e3611c1c554587ec7361b8d59c2dfd4008e74))
+
 # [1.2.0](https://github.com/CarlosRafael22/personal-website/compare/v1.1.0...v1.2.0) (2025-02-03)
 
 
