@@ -20,7 +20,7 @@ const Page = async () => {
         </div>
         <h1 className="mt-4 text-2xl font-bold">Rafael Leitão</h1>
         <p className="text-gray-600">
-          Frontend Software Engineer, Product and UX/UI skills
+          Frontend Product Engineer, Product and UX/UI skills
         </p>
 
         <SocialLinks />
