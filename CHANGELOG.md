@@ -1,3 +1,13 @@
+# [1.4.0](https://github.com/CarlosRafael22/personal-website/compare/v1.3.0...v1.4.0) (2025-03-18)
+
+
+### Features
+
+* **images:** add new initial flow image ([00ac450](https://github.com/CarlosRafael22/personal-website/commit/00ac450038db8fbf09f252e05d8393489e0dacbf))
+* **marketing/page:** change profile description ([be284e1](https://github.com/CarlosRafael22/personal-website/commit/be284e1e87c49980a369c869d6fbd8e97b5cea16))
+* **posts:** create new post file ([d7e0c98](https://github.com/CarlosRafael22/personal-website/commit/d7e0c9850394ff7e7e89e2f1ebc5492be450ceaf))
+* **series-architect-1:** add new tag ([60d2dc7](https://github.com/CarlosRafael22/personal-website/commit/60d2dc71df234410774dfb14dd265c939c396f70))
+
 # [1.3.0](https://github.com/CarlosRafael22/personal-website/compare/v1.2.0...v1.3.0) (2025-02-12)
 
 
