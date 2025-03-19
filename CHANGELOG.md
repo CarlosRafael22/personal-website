@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/CarlosRafael22/personal-website/compare/v1.4.0...v1.5.0) (2025-03-19)
+
+
+### Features
+
+* **locale/layout:** add Analytics component ([d0f9635](https://github.com/CarlosRafael22/personal-website/commit/d0f963575dbbf29d385a53ff2e152f40c695fb40))
+* **package.json:** add vercel analytics ([bbaea0a](https://github.com/CarlosRafael22/personal-website/commit/bbaea0ab3a83395258c7be8685c9440b892d0bbf))
+
 # [1.4.0](https://github.com/CarlosRafael22/personal-website/compare/v1.3.0...v1.4.0) (2025-03-18)
 
 
