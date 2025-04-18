@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/CarlosRafael22/personal-website/compare/v1.5.0...v1.6.0) (2025-04-18)
+
+
+### Features
+
+* **posts:** add architect website live article ([0eb633d](https://github.com/CarlosRafael22/personal-website/commit/0eb633d5b84fa0bad4aece735f81ea52dd0ffb8a))
+
 # [1.5.0](https://github.com/CarlosRafael22/personal-website/compare/v1.4.0...v1.5.0) (2025-03-19)
 
 
