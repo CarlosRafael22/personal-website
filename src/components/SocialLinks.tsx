@@ -1,4 +1,4 @@
-import { FileText, Github, Linkedin, Mail } from 'lucide-react';
+import { Download, FileText, Github, Linkedin, Mail } from 'lucide-react';
 import Link from 'next/link';
 
 export function SocialLinks() {
@@ -31,6 +31,15 @@ export function SocialLinks() {
         aria-label="Email Contact"
       >
         <Mail className="size-5" />
+      </Link>
+      <Link
+        href="/assets/cv.pdf"
+        download="Rafael-Leitao-CV.pdf"
+        className="inline-flex items-center gap-2 rounded-full border border-gray-300 px-3 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:border-gray-900 hover:text-gray-900"
+        aria-label="Download CV"
+      >
+        <Download className="size-4" />
+        <span>Download CV</span>
       </Link>
     </div>
   );
